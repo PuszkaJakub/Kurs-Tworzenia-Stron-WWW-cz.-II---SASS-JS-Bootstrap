@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: #fff;
+	background-color: #333;
+	overflow: hidden;
+}
+
+div {
+    background-color: #fff;
+	width: 300px;
+	height: 300px;
+}
+
+.square {
+	background-color: tomato;
+    animation: animation-square 4s;
+    animation-fill-mode: forwards;
+
+}
+
+.circle {
+	border-radius: 50%;
+	background-color: lime;
+    animation: animation-circle 2s 4s
+}
+
+@keyframes animation-square{
+	0% {
+		width: 300px;
+		height: 300px;
+	}
+	50% {
+		width: 600px;
+        height: 300px;
+	}
+	100% {
+		width: 300px;
+		height: 600px;
+        background-color: gold;
+	}
+}
+
+@keyframes animation-circle {
+    from{
+        background-color: lime;
+    }
+
+    to{
+        background-color: royalblue;
+    }
+}
