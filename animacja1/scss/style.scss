@@ -1,4 +1,4 @@
-*{
++*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -13,8 +13,8 @@ body{
 
 .sky{
     position: relative;
-    height: 60vh;
     width: 100vw;
+    height: 60vh;
     background-color: rgb(70, 153, 221);
 }
 
@@ -22,8 +22,8 @@ body{
     position: absolute;
     top: 10%;
     left: 5%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: gold;
     box-shadow: 0 0 70px rgb(201, 191, 57);
@@ -31,25 +31,90 @@ body{
 
 .ground{
     position: relative;
-    height: 40vh;
     width: 100vw;
+    height: 40vh;
     background-color:rgb(66, 56, 48);
 }
 
 .grass{
     position: absolute;
     top: 0;
-    height: 20vh;
     width: 100vw;
+    height: 20vh;
     background-color: lime;
 }
 
 .road{
     position: absolute;
     top: 5%;
-    height: 10vw;
     width: 100vw;
+    height: 10vw;
     background-color: dimgrey;
 }
 
+.car{
+    position: absolute;
+    left: 10%;
+    bottom: 50%;
+    width: 200px;
+    height: 100px;
+    border-radius: 25% 25% 0% 0%;
+    background-color: brown;
+}
+
+.car::before{
+    content: '';
+    position: absolute;
+    right: 100%;
+    bottom: 0%;
+    width: 25px;
+    height: 50px;
+    background-color: brown;
+}
+
+.car::after{
+    content: '';
+    position: absolute;
+    left: 100%;
+    bottom: 0%;
+    width: 25px;
+    height: 50px;
+    border-radius: 0 25% 0 0;
+    background-color: brown;
+}
+
+.window{
+    position: absolute;
+    top: 10%;
+    width: 75px;
+    height: 40px;
+    background-color: royalblue;
+}
+
+.front-window{
+    left: 0%;
+    border-radius: 25% 0% 0%;
+}
+
+.rear-window{
+    right: 0%;
+    border-radius: 0% 25% 0% 0%;
+}
+
+.wheel{
+    position: absolute;
+    top: 65%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px dashed rgb(94, 91, 91);
+    background-color: black;
+}
+
+.front-wheel{
+    right: 5%
+}
+.rear-wheel{
+    left: 5%;
+}
 
