@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    background-color: #333;
+}
+
+.sky{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: rgb(70, 153, 221);
+}
+
+.sun{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: gold;
+    box-shadow: 0 0 70px rgb(201, 191, 57);
+}
+
+.ground{
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    background-color:rgb(66, 56, 48);
+}
+
+.grass{
+    position: absolute;
+    top: 0;
+    height: 20vh;
+    width: 100vw;
+    background-color: lime;
+}
+
+.road{
+    position: absolute;
+    top: 5%;
+    height: 10vw;
+    width: 100vw;
+    background-color: dimgrey;
+}
+
+
