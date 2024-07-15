@@ -16,13 +16,6 @@ function blueColor() {
 	square.classList.add('blue');
 }
 
-// redBtn.addEventListener('click', redColor)
-// blueBtn.addEventListener('click', blueColor)
-
-// Wystepuje problem, gdyż klasy tego diva się po prostu nadpisują.
-// W CSS klasa .red jest niżej, dlatego zawsze będzie nadpisywała zmiane background color dla naszego diva.
-// Rozwiązaniem tego problemu jest reset klas za każdym razem:
-
 function blueColor1() {
 	square.classList = ['color blue'];
 }
@@ -31,12 +24,6 @@ function redColor1() {
 	square.classList = ['color red'];
 }
 
-redBtn.addEventListener('click', redColor1);
-blueBtn.addEventListener('click', blueColor1);
-
-// Update: Koles w kursie powiedział, że trzeba dodawać klase red, ale usuwać blue i na odwrót.
-// Ja jednak zostane przy swoim rozwiązaniu. Bo moje działa i jest moje.
-// Rozwiązanie typa:
 
 function redColor2() {
 	square.classList.add('red');
@@ -57,4 +44,8 @@ function deleteColor() {
 	square.classList.remove('blue');
 }
 
+redBtn.addEventListener('click', redColor1);
+blueBtn.addEventListener('click', blueColor1);
 removeColorBtn.addEventListener('click', deleteColor);
+
+// Funkcje powinny być na górze, na dole addEventListenery, żeby był porządek w kodzie.
