@@ -1,0 +1,21 @@
+Treść zadania #1
+Moi drodzy, przed Wami kolejne zadanie! 😎
+
+Treść:
+
+Skopiuj poniższy kod do pliku JS.
+
+Popraw błędnie nazwane zmienne.
+
+Stwórz zmienne z Twoim imieniem oraz wiekiem.
+
+Za pomocą console.log wypisz zdanie "Cześć, jestem imię i mam xlat."
+
+
+
+Kod:
+
+const fav-color = 'red'
+conts meal = 'schabowy'
+const 1favDRINK = 'pepsi'
+const function = 123
