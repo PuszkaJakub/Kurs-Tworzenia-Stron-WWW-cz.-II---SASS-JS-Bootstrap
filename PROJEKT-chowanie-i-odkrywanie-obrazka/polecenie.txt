@@ -1,0 +1,21 @@
+Zadanie! 😎
+
+1. Pobierz:
+   - strzałkę (ikonę z FontAwesome)
+   - przycisk
+   - ukryty obrazek
+
+2. Nadaj listenera na przycisk. Kliknięcie ma dodawać oraz odejmować klasę show do ukrytego obrazka.
+
+Dla ambitnych!
+Stwórz if, który będzie sprawdzał, czy nasz ukryty obrazek ma klasę show.
+
+Żeby móc to sprawdzić, w sprawdzanym warunku musisz wpisać:
+zmienna_z_obrazkiem.classList.contains('show')
+
+if najlepiej umieścić w funkcji, która dodaje klasę show. Dzięki temu, warunek będzie sprawdzany za każdym razem, kiedy klikniemy przycisk.
+
+Jeśli warunek jest prawdziwy, wypisz w konsoli "OK". Jeśli jest fałszywy, wypisz "NIE OK".
+
+
+Ustal obrót strzałki w funkcji.
