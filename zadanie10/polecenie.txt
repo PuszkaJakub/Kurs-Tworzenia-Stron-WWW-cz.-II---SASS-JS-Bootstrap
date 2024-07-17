@@ -1,0 +1,38 @@
+Treść zadania:
+
+
+ 1. Stwórz trzy kontenery, umieść w nich DIV.row
+
+
+
+ 2. W pierwszym kontenerze stwórz 4 DIV-y.
+
+Na najmniejszej rozdzielczości, DIV-y mają mieć 12 kolumn.
+
+Na rozdzielczości "small" mają mieć po 6 kolumn.
+
+Na rozdzielczości >768px mają mieć po 4 kolumny.
+
+Na rozdzielczości "large" mają mieć po 3 kolumny.
+
+
+
+3. W drugim kontenerze stwórz 4 DIV-y.
+
+Na najmniejszej rozdzielczości, DIV-y mają mieć 12 kolumn.
+
+Na rozdzielczości >576px DIV-y 1 & 3 mają mieć po 12 kolumn, a DIV-y 2 & 4 mają mieć 6 kolumn.
+
+Na rozdzielczości >768px DIV-y 1 & 3 mają mieć po 11 kolumn, a DIV-y 2 & 4 mają mieć 1 kolumnę.
+
+Na rozdzielczości >1400px DIV-y mają mieć po 3 kolumny.
+
+
+
+        4. W trzecim kontenerze stwórz 4 DIV-y.
+
+Na najmniejszej rozdzielczości, DIV-y mają mieć 2 kolumny.
+
+Na breakpoincie "średni" DIV-y mają mieć po 6 kolumn.
+
+Na rozdzielczości >1200px DIV-y mają mieć po 1 kolumnie.
