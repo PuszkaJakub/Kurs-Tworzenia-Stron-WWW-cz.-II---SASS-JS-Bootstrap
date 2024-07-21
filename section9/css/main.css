@@ -16,6 +16,7 @@ body {
 
 nav {
   text-transform: uppercase;
+  z-index: 20;
 }
 nav .navbar-toggler {
   padding: 10px 15px;
