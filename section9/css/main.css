@@ -20,7 +20,6 @@ nav {
 }
 nav .navbar-toggler {
   padding: 10px 15px;
-  border: 2px solid red;
 }
 nav .navbar-brand {
   font-weight: bold;
@@ -42,7 +41,7 @@ nav .navbar-brand:hover {
 header.hero-img {
   position: relative;
   height: 100vh;
-  background-image: url("../img/header-img-high-res.jpg");
+  background-image: url("../img/header-img-low-res.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -64,6 +63,32 @@ header.hero-img .hero-shadow {
   background-color: rgba(0, 0, 0, 0.829);
   z-index: -5;
 }
-header.hero-img h1 {
+header.hero-img h1,
+header.hero-img .btn {
   text-transform: uppercase;
+}
+header.hero-img .fa-chevron-down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+header.hero-img .fa-chevron-down:hover {
+  color: #039dff;
+}
+
+@media (width >= 768px) {
+  .hero-text h1 {
+    font-size: 42px;
+  }
+  .hero-text p {
+    font-size: 24px;
+  }
+}
+@media (width >= 1200px) {
+  header.hero-img {
+    background-image: url("../img/header-img-high-res.jpg");
+  }
 }/*# sourceMappingURL=main.css.map */
