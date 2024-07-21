@@ -14,8 +14,13 @@ nav {
   text-transform: uppercase;
 }
 nav .navbar-brand,
-nav .navbar-nav .nav-link.active,
 nav .navbar-nav .nav-link.show,
-nav .nav-link {
+nav .nav-link,
+nav .fa-bars {
   color: #fff;
+}
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .navbar-nav .nav-link.active {
+  color: #039dff;
 }/*# sourceMappingURL=main.css.map */

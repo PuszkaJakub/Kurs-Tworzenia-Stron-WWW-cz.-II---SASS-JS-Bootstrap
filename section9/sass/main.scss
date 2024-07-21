@@ -1,3 +1,4 @@
+@use './colors.scss' as colors;
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -11,11 +12,17 @@ body {
 }
 
 nav {
-    text-transform: uppercase;
+	text-transform: uppercase;
 	.navbar-brand,
-	.navbar-nav .nav-link.active,
 	.navbar-nav .nav-link.show,
-	.nav-link {
-		color: #fff;
+	.nav-link,
+	.fa-bars {
+		color: colors.$white-color;
+	}
+
+	.nav-link:focus,
+	.nav-link:hover,
+	.navbar-nav .nav-link.active {
+		color: colors.$main-color;
 	}
 }
