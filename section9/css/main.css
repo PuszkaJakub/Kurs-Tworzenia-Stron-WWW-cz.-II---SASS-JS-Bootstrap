@@ -10,6 +10,10 @@ body {
   color: #fff;
 }
 
+.text-blue {
+  color: #039dff;
+}
+
 nav {
   text-transform: uppercase;
 }
@@ -29,6 +33,36 @@ nav .fa-bars {
 nav .nav-link:focus,
 nav .nav-link:hover,
 nav .navbar-nav .nav-link.active,
-nav .navbar-brand:focus, nav .navbar-brand:hover {
+nav .navbar-brand:focus,
+nav .navbar-brand:hover {
   color: #039dff;
+}
+
+header.hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/header-img-high-res.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 0;
+}
+header.hero-img .hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+header.hero-img .hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.829);
+  z-index: -5;
+}
+header.hero-img h1 {
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */
