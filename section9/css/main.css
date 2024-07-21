@@ -13,6 +13,13 @@ body {
 nav {
   text-transform: uppercase;
 }
+nav .navbar-toggler {
+  padding: 10px 15px;
+  border: 2px solid red;
+}
+nav .navbar-brand {
+  font-weight: bold;
+}
 nav .navbar-brand,
 nav .navbar-nav .nav-link.show,
 nav .nav-link,
@@ -21,6 +28,7 @@ nav .fa-bars {
 }
 nav .nav-link:focus,
 nav .nav-link:hover,
-nav .navbar-nav .nav-link.active {
+nav .navbar-nav .nav-link.active,
+nav .navbar-brand:focus, nav .navbar-brand:hover {
   color: #039dff;
 }/*# sourceMappingURL=main.css.map */
