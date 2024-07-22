@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 74px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #333;
@@ -109,6 +113,12 @@ header.hero-img .fa-chevron-down:hover {
 .aboutus .aboutus-card-text {
   font-size: 14px;
 }
+.aboutus .aboutus-hover {
+  transition: color 0.3s;
+}
+.aboutus .aboutus-hover:hover {
+  color: #039dff;
+}
 
 @media (width >= 768px) {
   .hero-text h1 {
@@ -116,6 +126,11 @@ header.hero-img .fa-chevron-down:hover {
   }
   .hero-text p {
     font-size: 24px;
+  }
+}
+@media (width >= 992px) {
+  html {
+    scroll-padding-top: 72px;
   }
 }
 @media (width >= 1200px) {

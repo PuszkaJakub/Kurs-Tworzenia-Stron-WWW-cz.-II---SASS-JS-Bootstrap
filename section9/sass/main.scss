@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+html {
+	scroll-padding-top: 74px;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: colors.$background-color;
@@ -110,15 +114,22 @@ header.hero-img {
 		font-size: 30px;
 	}
 
-	.aboutus-card-title{
+	.aboutus-card-title {
 		font-size: 18px;
 		text-transform: uppercase;
 	}
-	.aboutus-card-text{
+	.aboutus-card-text {
 		font-size: 14px;
 	}
-}
 
+	.aboutus-hover {
+		transition: color 0.3s;
+	}
+
+	.aboutus-hover:hover {
+		color: colors.$main-color;
+	}
+}
 
 @media (width >= 768px) {
 	.hero-text {
@@ -128,6 +139,12 @@ header.hero-img {
 		p {
 			font-size: 24px;
 		}
+	}
+}
+
+@media (width >=992px) {
+	html {
+		scroll-padding-top: 72px;
 	}
 }
 
