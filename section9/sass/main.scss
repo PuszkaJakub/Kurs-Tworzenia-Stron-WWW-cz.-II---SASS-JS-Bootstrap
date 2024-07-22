@@ -131,6 +131,37 @@ header.hero-img {
 	}
 }
 
+section.aboutus-more {
+	position: relative;
+	background-image: url('../img/about-img-low-res.jpg');
+	background-size: cover;
+	background-position: center;
+	color: colors.$white-color;
+	z-index: 0;
+
+	.aboutus-shadow {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.671);
+		z-index: -5;
+	}
+
+	.aboutus-hero-item {
+		margin: 10px 0;
+
+		i {
+			font-size: 36px;
+		}
+
+		.aboutus-hero-title {
+			font-size: 24px;
+		}
+	}
+}
+
 @media (width >= 768px) {
 	.hero-text {
 		h1 {
@@ -145,6 +176,9 @@ header.hero-img {
 @media (width >=992px) {
 	html {
 		scroll-padding-top: 72px;
+	}
+	section.aboutus-more {
+		background-image: url('../img/about-img-high-res.jpg');
 	}
 }
 

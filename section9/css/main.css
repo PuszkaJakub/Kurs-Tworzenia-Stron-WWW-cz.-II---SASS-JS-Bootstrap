@@ -120,6 +120,33 @@ header.hero-img .fa-chevron-down:hover {
   color: #039dff;
 }
 
+section.aboutus-more {
+  position: relative;
+  background-image: url("../img/about-img-low-res.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  z-index: 0;
+}
+section.aboutus-more .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.671);
+  z-index: -5;
+}
+section.aboutus-more .aboutus-hero-item {
+  margin: 10px 0;
+}
+section.aboutus-more .aboutus-hero-item i {
+  font-size: 36px;
+}
+section.aboutus-more .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
+
 @media (width >= 768px) {
   .hero-text h1 {
     font-size: 42px;
@@ -131,6 +158,9 @@ header.hero-img .fa-chevron-down:hover {
 @media (width >= 992px) {
   html {
     scroll-padding-top: 72px;
+  }
+  section.aboutus-more {
+    background-image: url("../img/about-img-high-res.jpg");
   }
 }
 @media (width >= 1200px) {
