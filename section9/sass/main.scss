@@ -172,12 +172,59 @@ section.aboutus-more {
 		padding: 40px 0;
 		background-color: rgb(0, 0, 0, 0.8);
 	}
-	.carousel-indicators{
+	.carousel-indicators {
 		padding-bottom: 20px;
 	}
 
-	.card{
+	.card {
 		margin: 0 20px;
+	}
+}
+
+.prices {
+	.price-box {
+		margin: 20px;
+		padding: 30px;
+		text-align: center;
+		background-color: white;
+		box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
+		transition: scale 0.3s;
+
+		.price-title {
+			color: colors.$main-color;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		span {
+			font-weight: bold;
+		}
+		.price-tag {
+			font-weight: bold;
+			font-size: 30px;
+		}
+
+		i {
+			padding: 0 5px;
+			font-size: 24px;
+		}
+
+		button {
+			padding: 10px 20px;
+			text-transform: uppercase;
+		}
+	}
+
+	.price-box:hover {
+		scale: 1.05;
+	}
+
+	.price-info {
+		margin-top: 30px;
+		a {
+			text-decoration: none;
+		}
 	}
 }
 
