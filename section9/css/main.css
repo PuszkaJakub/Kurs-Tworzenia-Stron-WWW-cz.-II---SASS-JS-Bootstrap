@@ -260,6 +260,52 @@ section.aboutus-more .aboutus-hero-item .aboutus-hero-title {
   font-size: 12px;
 }
 
+.contact {
+  position: relative;
+  background-image: url("../img/contact-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+  color: #fff;
+}
+.contact .section-title {
+  color: #eee;
+}
+.contact .underline {
+  background-color: #eee;
+}
+.contact .contact-img-shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(7, 14, 32, 0.8);
+  z-index: -5;
+}
+.contact .contact-list {
+  padding: 10px;
+}
+.contact .contact-list h3 {
+  text-transform: uppercase;
+}
+.contact .contact-list a {
+  font-size: 36px;
+  padding: 10px;
+  color: #fff;
+  transition: color 0.3s;
+}
+.contact .contact-list a:hover {
+  color: #039dff;
+}
+.contact .contact-list .contact-media {
+  align-self: center;
+}
+.contact .contact-list .contact-item {
+  margin: 30px 0;
+}
+
 @media (width >= 768px) {
   .hero-text h1 {
     font-size: 42px;
