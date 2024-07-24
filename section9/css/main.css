@@ -246,6 +246,20 @@ section.aboutus-more .aboutus-hero-item .aboutus-hero-title {
   z-index: -5;
 }
 
+.achievements i {
+  font-size: 36px;
+  padding-bottom: 0;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+.achievements .achievements-text-up {
+  font-size: 24px;
+}
+.achievements .achievements-text-down {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
 @media (width >= 768px) {
   .hero-text h1 {
     font-size: 42px;
